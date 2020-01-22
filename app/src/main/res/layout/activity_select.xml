@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -39,6 +40,7 @@
             android:background="@drawable/frame_style_btn_brown"
             android:text="@string/backBefore"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -62,8 +64,11 @@
             android:gravity="center"
             android:text="@string/guidanceLabel"
             android:textColor="#5F4325"
-            android:textSize="25sp"
+            android:textSize="22sp"
+            app:autoSizeMaxTextSize="22sp"
+            app:autoSizeTextType="uniform"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/backmainBtn_sa" />
 
@@ -73,6 +78,7 @@
             android:layout_height="260dp"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
             android:orientation="vertical"
             app:layout_constraintBottom_toTopOf="@+id/backBtn_sa"
             app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +93,7 @@
                 android:background="#00FFFFFF"
                 android:text="@string/lab1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="25sp" />
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/buttonLab2"
@@ -97,7 +103,7 @@
                 android:background="#00FFFFFF"
                 android:text="@string/lab2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="25sp" />
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/buttonLab3"
@@ -107,7 +113,7 @@
                 android:background="#00FFFFFF"
                 android:text="@string/lab3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="25sp" />
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/buttonLab4"
@@ -117,7 +123,7 @@
                 android:background="#00FFFFFF"
                 android:text="@string/lab4"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="25sp" />
+                android:textSize="22sp" />
 
             <Button
                 android:id="@+id/buttonLab5"
@@ -127,7 +133,7 @@
                 android:background="#00FFFFFF"
                 android:text="@string/lab5"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="25sp" />
+                android:textSize="22sp" />
 
         </LinearLayout>
 

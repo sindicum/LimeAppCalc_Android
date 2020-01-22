@@ -38,6 +38,7 @@
             android:background="@drawable/frame_style_btn_brown"
             android:text="@string/goNext"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/backBtn_ina"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/backBtn_ina"
@@ -53,6 +54,7 @@
             android:background="@drawable/frame_style_btn_brown"
             android:text="@string/backBefore"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/nextBtn_ina"
             app:layout_constraintStart_toStartOf="parent" />
@@ -69,11 +71,12 @@
 
         <TableLayout
             android:id="@+id/tableLayout"
-            android:layout_width="240dp"
-            android:layout_height="220dp"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="24dp"
+            android:layout_width="250dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/backBtn_ina"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/numberLabel">
@@ -93,7 +96,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num7"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn8"
@@ -104,7 +107,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num8"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn9"
@@ -115,7 +118,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num9"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
             </TableRow>
 
             <TableRow
@@ -133,7 +136,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num4"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn5"
@@ -144,7 +147,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num5"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn6"
@@ -155,7 +158,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num6"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
             </TableRow>
 
             <TableRow
@@ -173,7 +176,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn2"
@@ -184,7 +187,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num2"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn3"
@@ -195,7 +198,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num3"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
             </TableRow>
 
             <TableRow
@@ -213,7 +216,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/numPoint"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btnClear"
@@ -225,7 +228,7 @@
                     android:text="@string/numClear"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     android:textColor="#DD2C00"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
 
                 <Button
                     android:id="@+id/btn0"
@@ -236,7 +239,7 @@
                     android:background="#00FFFFFF"
                     android:text="@string/num0"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textSize="30sp" />
+                    android:textSize="24sp" />
             </TableRow>
         </TableLayout>
 
@@ -244,10 +247,14 @@
             android:id="@+id/guidanceLabel"
             android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:gravity="center"
             android:text="@string/guidanceLabel"
             android:textColor="#5F4325"
-            android:textSize="25sp"
+            android:textSize="22sp"
+            app:autoSizeMaxTextSize="22dp"
+            app:autoSizeTextType="uniform"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/backmainBtn_ina" />
@@ -256,10 +263,12 @@
             android:id="@+id/subguidanceLabel"
             android:layout_width="0dp"
             android:layout_height="25dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:gravity="center"
             android:text="@string/subguidanceLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textSize="16sp"
+            android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/guidanceLabel" />
@@ -267,11 +276,11 @@
         <TextView
             android:id="@+id/numberLabel"
             android:layout_width="0dp"
-            android:layout_height="65dp"
+            android:layout_height="70dp"
             android:gravity="center"
             android:text="@string/numberLabel"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="50sp"
+            android:textSize="45sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/subguidanceLabel" />

@@ -45,7 +45,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/presentPh"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/improvedPh"
@@ -55,7 +55,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/improvedPh"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/plowingDepth"
@@ -65,7 +65,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/plowingDepth"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/soilTexture"
@@ -75,7 +75,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/soikTexture"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/humusContent"
@@ -85,7 +85,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/humusContent"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/bulkDensity"
@@ -95,7 +95,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/bulkDensity"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/productSelect"
@@ -105,7 +105,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/productSelect"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/alkalineContent"
@@ -115,7 +115,7 @@
                 android:gravity="center_vertical"
                 android:text="@string/alkalineContent"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -140,7 +140,7 @@
                 android:padding="5dp"
                 android:tag="presentPh"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/improvedPhBtn"
@@ -152,31 +152,32 @@
                 android:padding="5dp"
                 android:tag="improvedPh"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
+
             <Button
                 android:id="@+id/plowingDepthBtn"
-                android:tag="plowingDepth"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/frame_style_btn_white"
                 android:padding="5dp"
+                android:tag="plowingDepth"
                 android:textAllCaps="false"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="22sp" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/soilTextureBtn"
-                android:tag="soilTexture"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/frame_style_btn_white"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:padding="5dp"
-                android:textSize="22sp" />
+                android:tag="soilTexture"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/humusContentBtn"
@@ -184,49 +185,50 @@
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeTextType="uniform"
                 android:background="@drawable/frame_style_btn_white"
                 android:maxLines="1"
                 android:padding="5dp"
                 android:tag="humusContent"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:autoSizeTextType="uniform"
-                android:autoSizeMaxTextSize="22sp" />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/bulkDensityBtn"
-                android:tag="bulkDensity"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/frame_style_btn_white"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:padding="5dp"
-                android:textSize="22sp" />
+                android:tag="bulkDensity"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/productSelectBtn"
-                android:tag="productSelect"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/frame_style_btn_white"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:padding="5dp"
-                android:textSize="22sp" />
+                android:tag="productSelect"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/alkalineContentBtn"
-                android:tag="alkalineContent"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:background="@drawable/frame_style_btn_white"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:padding="5dp"
-                android:textSize="22sp" />
+                android:tag="alkalineContent"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -239,6 +241,7 @@
             android:background="@drawable/frame_style_btn_brown"
             android:text="@string/resetBtn"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/calcBtn"
             app:layout_constraintTop_toTopOf="@+id/calcBtn" />
@@ -254,6 +257,7 @@
             android:background="@drawable/frame_style_btn_brown"
             android:text="@string/calcBtn"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/resetBtn"
             app:layout_constraintStart_toStartOf="parent"
