@@ -1,4 +1,4 @@
-package com.example.limeappcalc
+package com.ohkeng.limeappcalc
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

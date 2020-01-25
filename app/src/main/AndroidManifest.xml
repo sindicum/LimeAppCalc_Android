@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.limeappcalc">
+    package="com.ohkeng.limeappcalc">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SelectActivity"></activity>
-        <activity android:name=".InputNumberActivity" />
-        <activity android:name=".ResultActivity" />
+        <activity android:name="com.ohkeng.limeappcalc.SelectActivity"></activity>
+        <activity android:name="com.ohkeng.limeappcalc.InputNumberActivity" />
+        <activity android:name="com.ohkeng.limeappcalc.ResultActivity" />
         <activity android:name=".resultActivity" />
         <activity android:name=".InputNumActibity" />
         <activity android:name=".SelectActibity" />
         <activity android:name=".select" />
         <activity android:name=".input_num_activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ohkeng.limeappcalc.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

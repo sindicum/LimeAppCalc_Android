@@ -1,9 +1,8 @@
-package com.example.limeappcalc
+package com.ohkeng.limeappcalc
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.method.TextKeyListener.clear
 import android.view.View
 import androidx.core.content.edit
 import androidx.preference.PreferenceManager

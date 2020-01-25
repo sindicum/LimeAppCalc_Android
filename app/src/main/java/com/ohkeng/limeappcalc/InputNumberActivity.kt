@@ -1,9 +1,8 @@
-package com.example.limeappcalc
+package com.ohkeng.limeappcalc
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.preference.Preference
 import androidx.preference.PreferenceManager
 import android.view.View
 import android.widget.Button

@@ -1,4 +1,4 @@
-package com.example.limeappcalc
+package com.ohkeng.limeappcalc
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import androidx.preference.PreferenceManager
-import kotlinx.android.synthetic.main.activity_input_number.guidanceLabel
 import kotlinx.android.synthetic.main.activity_select.*
 
 class SelectActivity : AppCompatActivity() {

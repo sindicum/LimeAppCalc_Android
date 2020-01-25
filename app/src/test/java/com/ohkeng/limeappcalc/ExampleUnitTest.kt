@@ -1,4 +1,4 @@
-package com.example.limeappcalc
+package com.ohkeng.limeappcalc
 
 import org.junit.Test
 
