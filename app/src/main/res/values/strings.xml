@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LimeAppCalc</string>
+    <string name="app_name">石灰施用計算</string>
     <string name="back_image">back image</string>
     <string name="presentPh">現在pH</string>
     <string name="improvedPh">改善pH</string>

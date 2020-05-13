@@ -4,6 +4,8 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -12,11 +14,6 @@
         <activity android:name="com.ohkeng.limeappcalc.SelectActivity"></activity>
         <activity android:name="com.ohkeng.limeappcalc.InputNumberActivity" />
         <activity android:name="com.ohkeng.limeappcalc.ResultActivity" />
-        <activity android:name=".resultActivity" />
-        <activity android:name=".InputNumActibity" />
-        <activity android:name=".SelectActibity" />
-        <activity android:name=".select" />
-        <activity android:name=".input_num_activity" />
         <activity android:name="com.ohkeng.limeappcalc.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
